@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block body %}
+    {% for todo in todos %}
+    <li>   
+        {{ todo.title }}    
+    </li>
+    {% end %}
+
+
+{% end %}
